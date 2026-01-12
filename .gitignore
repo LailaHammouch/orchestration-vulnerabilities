@@ -1,0 +1,47 @@
+# Fichiers de scan et rapports
+scans/*.xml
+scans/*.json
+*.pdf
+*.pptx
+*.ppt
+*.docx
+
+# Captures d'écran
+screenshots/
+images/
+*.png
+*.jpg
+*.jpeg
+
+# Configuration sensible
+config.py
+.env
+**/*API_KEY*
+
+# Clés API et tokens
+*token*
+*api_key*
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Fichiers Docker
+.dockerignore
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
